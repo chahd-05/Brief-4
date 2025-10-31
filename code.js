@@ -56,11 +56,11 @@ border.style.display = 'block'
     repayment = (M * duration)
     if(M <= salary * 0.4){
         
-    output1.textContent = selectedtype
-    output2.textContent = loan
-    output3.textContent = M.toFixed(2)
-    output4.textContent = totalinterest.toFixed(2)
-    output5.textContent = repayment.toFixed(2)
+    output1.textContent ="type : " + selectedtype
+    output2.textContent = "loan amount : " + loan + "DH"
+    output3.textContent = "monthly payment : " + M.toFixed(2) + "DH"
+    output4.textContent = "total intrest rate : " + totalinterest.toFixed(2) + "DH"
+    output5.textContent = "total payment : "  + repayment.toFixed(2) + "DH"
 }
 else {
     output1.textContent = "the loan is not available with this income."
