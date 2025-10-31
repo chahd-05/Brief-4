@@ -71,6 +71,17 @@ span{
     position: relative;
     top: 20px;
 }
+.affiche {
+    border-radius: 20px;
+    border: #09283F;
+    box-shadow: 0px 0px  20px rgb(122, 215, 245);
+}
+.affiche:hover{
+    background-color: rgb(89, 164, 189);
+    transform:scale(20px);
+   
+    transition: 3s;
+}
 .affiche img {
    width: 197px;
    margin-top: 50px;
